@@ -20,7 +20,7 @@
 }
 
 .menu {
-    margin-left: 700px;
+    margin-left: 550px;
     padding-top: 25px;
 
 }
@@ -36,11 +36,52 @@
     font-style: italic;
 }
 
+.btn-nav {
+    background-color: #22d3ee;
+    color: #0369a1 !important;
+    border-radius: 10px;
+    padding : 5px 5px;
+}
+
+.about-section {
+    padding: 40px 20px 40px 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.about-avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.about-text h2 {
+    color: #1e3a8a;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 1.6rem;
+}
+
+.about-text p {
+    color: #666;
+    margin-left: 35px;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
 .banner {
     background-color: #3b5999;
     height: 600px;
     text-align: center;
     color: white;
+    width: 1300px;
 }
 
 .banner img {
@@ -84,7 +125,7 @@ h1 span:before {
     }
 
     50% {
-        content: 'Saya Haji Saitama S.Kom, M.Kom';
+        content: 'Saya Haji Saitama S.Kom';
     }
 
     100% {
@@ -167,16 +208,50 @@ p {
     padding: 0px 20px;
 }
 
-.contact {
-    text-align: center;
-    color: #4d4d4d;
-    margin-top: 90px;
+.contact-section {
+    width: 1240px;
+    padding: 40px 20px;
 }
 
-.contact img {
-    width: 70px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.contact-box {
+    background-color: #2563eb;
+    border-radius: 15px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ft {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    color: #fde047;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-contact {
+    background-color: #93c5fd;
+    color: #1e3a8a;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .footer {
